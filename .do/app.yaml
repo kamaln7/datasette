@@ -7,6 +7,6 @@ services:
 databases:
   - name: test
     engine: PG
-    version: 12
+    version: "12"
     size: db-s-dev-database
     num_nodes: 1
